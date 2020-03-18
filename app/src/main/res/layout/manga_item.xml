@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="197dp"
+             android:layout_height="279dp"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:orientation="vertical"
+             android:background="@android:color/black"
+             android:id="@+id/frame_layout">
+
+    <ImageView
+            app:srcCompat="@drawable/loading"
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="279dp"
+            android:gravity="center"/>
+
+
+    <TextView
+            android:background="@color/colorTransparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:gravity="left"
+            android:layout_gravity="bottom"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:id="@+id/manga_title"/>
+
+</FrameLayout>
